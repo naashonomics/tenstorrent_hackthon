@@ -46,6 +46,8 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Network URL: <url>
   External URL: <url>
 ```
+[![Watch the video]([https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg](https://github.com/user-attachments/assets/0c8c7921-939e-4cb9-b621-d6e1dd4ea3a0))](https://www.youtube.com/watch?v=xTSIQGpY7jc)
+
 **Project 2** : In this hackathon project, we implemented a Visual Question Answering (VQA) system. The VQA system combines several advanced transformer-based models to analyze images, generate captions, and answer questions based on those captions. The models include CLIP, VisionEncoderDecoder, and Roberta, which work together to provide a seamless VQA experience. Our implementation also features an interface built with Gradio for easy interaction.
 
 **Key Features**
