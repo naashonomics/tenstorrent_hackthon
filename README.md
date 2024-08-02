@@ -27,6 +27,7 @@ pip install streamlit scipy transformers
 **Does did we confirm it works on Grayscale and Wormhole?**
 ![image](https://github.com/user-attachments/assets/b88772a7-c353-477e-a87e-c281af947a97)
 ![image](https://github.com/user-attachments/assets/ba6b1091-9bb0-4880-8efa-8d8919f82996)
+![image](https://github.com/user-attachments/assets/0c8c7921-939e-4cb9-b621-d6e1dd4ea3a0)
 
 
 **How to run the code?**
