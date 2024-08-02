@@ -1,7 +1,8 @@
 # tenstorrent_hackthon
-**
-Pre exeuction:**
-pip install streamlit scipy transformers  
+**Pre exeuction:**
+```
+pip install streamlit scipy transformers
+```
 
 **What we are building ?**
 
