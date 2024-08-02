@@ -49,14 +49,39 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
 **Project 2** : In this hackathon project, we implemented a Visual Question Answering (VQA) system. The VQA system combines several advanced transformer-based models to analyze images, generate captions, and answer questions based on those captions. The models include CLIP, VisionEncoderDecoder, and Roberta, which work together to provide a seamless VQA experience. Our implementation also features an interface built with Gradio for easy interaction.
 
 **Key Features**
-**Image Captioning**: The system uses the CLIP model to process images and generate captions with the VisionEncoderDecoder model.
-**Question Answering**: Based on the generated captions, the Roberta model answers questions, supporting both text and audio inputs for questions.
-**Text-to-Speech Conversion**: The answers are converted to audio using gTTS, providing an auditory response for users.
+
+**Image Captioning**:
+
+The system uses the CLIP model to process images and generate captions with the VisionEncoderDecoder model.
+
+**Question Answering**: 
+
+Based on the generated captions, the Roberta model answers questions, supporting both text and audio inputs for questions.
+
+**Text-to-Speech Conversion**: 
+
+The answers are converted to audio using gTTS, providing an auditory response for users.
+
 **Implementation Details**
-**Hardware**: Initially, we attempted to leverage Tenstorrent hardware to accelerate the models' computations using PyBUDA. However, due to compatibility issues, we reverted to using standard hardware (CPU) without PyBUDA.
-**Framework**: The models were deployed and executed using standard PyTorch and Transformers libraries without the PyBUDA framework.
-**User Interface**: The Gradio interface allows users to upload images, input questions (either via text or audio), and receive answers in both text and audio formats.
+
+**Hardware**:
+
+Initially, we attempted to leverage Tenstorrent hardware to accelerate the models' computations using PyBUDA. However, due to compatibility issues, we reverted to using standard hardware (CPU) without PyBUDA.
+
+**Framework**: 
+
+The models were deployed and executed using standard PyTorch and Transformers libraries without the PyBUDA framework.
+
+**User Interface**: 
+
+The Gradio interface allows users to upload images, input questions (either via text or audio), and receive answers in both text and audio formats.
 Challenges and Solutions
-**PyBUDA** Compatibility Issues: During the implementation, we encountered compatibility issues with CUDA and the PyBUDA framework, resulting in errors when attempting to run the models on Tenstorrent hardware. The specific error encountered was related to the ushort format, indicating that the audio data dimensions were not correctly handled.
+
+**PyBUDA** 
+
+Compatibility Issues: During the implementation, we encountered compatibility issues with CUDA and the PyBUDA framework, resulting in errors when attempting to run the models on Tenstorrent hardware. The specific error encountered was related to the ushort format, indicating that the audio data dimensions were not correctly handled.
+
+
 **Solution**: Due to these compatibility issues, we decided to run the models without PyBUDA, using standard hardware for the computations. This allowed us to successfully implement the VQA system without encountering the data handling issues.
 
+https://github.com/naashonomics/tenstorrent_hackthon/blob/main/visual_qa.ipynb
