@@ -46,5 +46,5 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Network URL: <url>
   External URL: <url>
 ```
-
+Project 2 : We tried building a 
 
