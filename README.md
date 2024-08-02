@@ -15,9 +15,11 @@ pip install streamlit scipy transformers
 
 **How to run the code?**
 
-'''
+```
 streamlit run cpu_buda_text2voice_converter.py
+```
 
+```
 Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
 
 
@@ -26,6 +28,6 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Local URL: <url>
   Network URL: <url>
   External URL: <url>
+```
 
-'''
 
