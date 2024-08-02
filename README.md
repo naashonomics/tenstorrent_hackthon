@@ -15,4 +15,17 @@ pip install streamlit scipy transformers
 
 **How to run the code?**
 
+'''
+streamlit run cpu_buda_text2voice_converter.py
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: <url>
+  Network URL: <url>
+  External URL: <url>
+
+'''
 
