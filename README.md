@@ -89,5 +89,5 @@ Compatibility Issues: During the implementation, we encountered compatibility is
 ![image](https://github.com/user-attachments/assets/4fc27f9d-95f3-4bef-9b87-8ac09aef5da6)
 ![image](https://github.com/user-attachments/assets/5f871962-94f5-4602-b542-876d2e276b0b)
 
-
+ you can [watch the video on YouTube](https://youtu.be/F3TUrAJzlqw)
 https://github.com/naashonomics/tenstorrent_hackthon/blob/main/visual_qa.ipynb
