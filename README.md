@@ -46,6 +46,7 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Network URL: <url>
   External URL: <url>
 ```
+**Watch the Demo Video** 
 [![Watch the video](https://img.youtube.com/vi/xTSIQGpY7jc/maxresdefault.jpg)](https://www.youtube.com/watch?v=xTSIQGpY7jc)
 
 **Project 2** : In this hackathon project, we implemented a Visual Question Answering (VQA) system. The VQA system combines several advanced transformer-based models to analyze images, generate captions, and answer questions based on those captions. The models include CLIP, VisionEncoderDecoder, and Roberta, which work together to provide a seamless VQA experience. Our implementation also features an interface built with Gradio for easy interaction.
@@ -89,5 +90,8 @@ Compatibility Issues: During the implementation, we encountered compatibility is
 ![image](https://github.com/user-attachments/assets/4fc27f9d-95f3-4bef-9b87-8ac09aef5da6)
 ![image](https://github.com/user-attachments/assets/5f871962-94f5-4602-b542-876d2e276b0b)
 
- you can [watch the video on YouTube](https://youtu.be/F3TUrAJzlqw)
+**Watch the Demo Video** 
+[![Watch the video](https://img.youtube.com/vi/F3TUrAJzlqw/maxresdefault.jpg)](https://youtu.be/F3TUrAJzlqw) 
+
+**Access to Code** 
 https://github.com/naashonomics/tenstorrent_hackthon/blob/main/visual_qa.ipynb
